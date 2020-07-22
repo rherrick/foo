@@ -1,0 +1,175 @@
+[
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/parent",
+        "alias":"parent",
+        "cmd":"mvn clean install",
+        "custom":true
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/test",
+        "alias":"test",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/framework",
+        "alias":"framework",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/transaction",
+        "alias":"transaction",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/prefs",
+        "alias":"prefs",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/config",
+        "alias":"config",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/automation",
+        "alias":"automation",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/extattr",
+        "alias":"extattr",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/dicomtools",
+        "alias":"dicomtools",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/mizer",
+        "alias":"mizer",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/dicom-edit4",
+        "alias":"dicom-edit4",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/dicom-edit6",
+        "alias":"dicom-edit6",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/mail",
+        "alias":"mail",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/notify",
+        "alias":"notify",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xdat",
+        "alias":"xdat",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/spawner",
+        "alias":"spawner",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xdat-data-builder",
+        "alias":"xdat-data-builder",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xnat-data-models",
+        "alias":"xnat-data-models",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal",
+        "custom": "xnat-data-models"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/ecat",
+        "alias":"ecat",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/dicom-image-utils",
+        "alias":"dicom-image-utils",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/session-builders",
+        "alias":"session-builders",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/ecat4xnat",
+        "alias":"ecat4xnat",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/dicom-xnat",
+        "alias":"dicom-xnat",
+        "cmd":"mvn clean install",
+        "custom":true
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdcm/prearc-importer",
+        "alias":"prearc-importer",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/plexiviewer",
+        "alias":"plexiviewer",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {   
+        "repo":"ssh://git@github.com/NrgXnat/pipeline-xnattools",
+        "alias":"pipeline-xnattools",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@github.com/NrgXnat/xnat-pipeline",
+        "alias":"xnat-pipeline",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@github.com/NrgXnat/pipeline-client",
+        "alias":"pipeline-client",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@github.com/NrgXnat/pipeline-imagingtools",
+        "alias":"pipeline-imagingtools",
+        "cmd":"mvn clean install"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/data-client",
+        "alias":"data-client",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xnat-web",
+        "alias":"xnat-web",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xnat-data-builder",
+        "alias":"xnat-data-builder",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@bitbucket.org/xnatdev/xnat-data-models",
+        "alias":"xnat-data-models",
+        "cmd":"chmod +x ./gradlew && ./gradlew clean publishToMavenLocal"
+    },
+    {
+        "repo":"ssh://git@github.com/NrgXnat/xnat-pipeline-engine",
+        "alias":"xnat-pipeline-engine",
+        "cmd":"chmod +x ./gradlew && ./gradlew"
+    }
+]
